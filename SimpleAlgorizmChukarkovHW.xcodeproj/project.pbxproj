@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3C3F325C2745384B009C5CCB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F325B2745384B009C5CCB /* main.c */; };
+		3C3F326427453898009C5CCB /* MaxNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F326327453898009C5CCB /* MaxNumber.c */; };
+		3CE0665A2746514E009EE8F0 /* CalculateQuadraticEquation.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CE066592746514E009EE8F0 /* CalculateQuadraticEquation.c */; };
+		3CE0665D27465757009EE8F0 /* IndexBodyMass.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0665C27465757009EE8F0 /* IndexBodyMass.c */; };
+		3CF7A40127456C46003C6355 /* Exchange.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7A40027456C46003C6355 /* Exchange.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		3C3F32582745384B009C5CCB /* SimpleAlgorizmChukarkovHW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleAlgorizmChukarkovHW; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3F325B2745384B009C5CCB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3C3F326227453898009C5CCB /* MaxNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxNumber.h; sourceTree = "<group>"; };
+		3C3F326327453898009C5CCB /* MaxNumber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MaxNumber.c; sourceTree = "<group>"; };
+		3CE066582746514E009EE8F0 /* CalculateQuadraticEquation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateQuadraticEquation.h; sourceTree = "<group>"; };
+		3CE066592746514E009EE8F0 /* CalculateQuadraticEquation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CalculateQuadraticEquation.c; sourceTree = "<group>"; };
+		3CE0665B27465757009EE8F0 /* IndexBodyMass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexBodyMass.h; sourceTree = "<group>"; };
+		3CE0665C27465757009EE8F0 /* IndexBodyMass.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IndexBodyMass.c; sourceTree = "<group>"; };
+		3CF7A3FF27456C46003C6355 /* Exchange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exchange.h; sourceTree = "<group>"; };
+		3CF7A40027456C46003C6355 /* Exchange.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Exchange.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				3C3F325B2745384B009C5CCB /* main.c */,
+				3C3F326227453898009C5CCB /* MaxNumber.h */,
+				3C3F326327453898009C5CCB /* MaxNumber.c */,
+				3CF7A3FF27456C46003C6355 /* Exchange.h */,
+				3CF7A40027456C46003C6355 /* Exchange.c */,
+				3CE066582746514E009EE8F0 /* CalculateQuadraticEquation.h */,
+				3CE066592746514E009EE8F0 /* CalculateQuadraticEquation.c */,
+				3CE0665B27465757009EE8F0 /* IndexBodyMass.h */,
+				3CE0665C27465757009EE8F0 /* IndexBodyMass.c */,
 			);
 			path = SimpleAlgorizmChukarkovHW;
 			sourceTree = "<group>";
@@ -120,6 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3F325C2745384B009C5CCB /* main.c in Sources */,
+				3CE0665D27465757009EE8F0 /* IndexBodyMass.c in Sources */,
+				3CF7A40127456C46003C6355 /* Exchange.c in Sources */,
+				3C3F326427453898009C5CCB /* MaxNumber.c in Sources */,
+				3CE0665A2746514E009EE8F0 /* CalculateQuadraticEquation.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
